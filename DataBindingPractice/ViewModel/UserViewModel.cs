@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Windows.Input;
+using DataBindingPractice.Model;
 
 namespace DataBindingPractice.ViewModel
 {

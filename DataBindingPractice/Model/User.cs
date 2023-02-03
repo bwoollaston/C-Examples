@@ -24,7 +24,7 @@ namespace DataBindingPractice.Model
             set
             {
                 userId = value;
-                OnPropertyChanged("UserId")
+                OnPropertyChanged("UserId");
             }
         }
         public string Firstname
