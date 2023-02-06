@@ -15,7 +15,7 @@ namespace DataBindingPractice
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            WpfMVVMSample.MainWindow window = new MainWindow();
+            MainWindow window = new MainWindow();
             UserViewModel VM = new UserViewModel();
             window.DataContext = VM;
             window.Show();

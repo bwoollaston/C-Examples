@@ -55,11 +55,11 @@ namespace DataBindingPractice.Model
         {
             get
             {
-                return City;
+                return city;
             }
             set
             {
-                City = value;
+                city = value;
                 OnPropertyChanged("City");
             }
         }
